@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Snacks Home</title>
-    <link rel="stylesheet" href="style.css">
+{% extends 'base.html' %}
 
-  </head>
-  <body>
-	<script src="index.js"></script>
-  <h1>Home Page</h1>
-  <h2>wooho</h2>
-  </body>
-</html>
+{% block content %}
+    <h1>Home page for the win</h1>
+{% endblock content %}
+
+{% block title %}
+    Snacks: Home
+{% endblock title %}
